@@ -1,6 +1,6 @@
 ﻿# vp
 
-> 一个简单的VUE项目
+> 基于vue+Nodejs的在线音乐网站
 
 ## Build Setup
 
