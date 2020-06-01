@@ -1,0 +1,48 @@
+/** Created by MiYuXin on 2020/3/10 .  **/
+#con_table{
+  /*position: absolute;*/
+  width:90%;
+  height:100%;
+  /*left:0;*/
+  /*right:0;*/
+  /*margin:auto;*/
+}
+.con_operate{
+  width:90%;
+  height:100%;
+}
+
+.contitle{
+  margin-top: 0.5rem;
+  border-top: 2px solid #283742;
+  color: #428bcacc;
+  font-weight: 600;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.table_thead{
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+.search input{
+  width: 10rem!important;
+  height: 2rem!important;
+  padding-left: 15px!important;
+  border-radius: 42px!important;
+  border: 2px solid rgba(45, 95, 137, 0.74)!important;
+  outline: none!important;
+  position: relative!important;
+  transition: .3s linear!important;
+}
+.search input:focus{
+  width:250px!important;
+}
+.card-view-title{
+  font-weight:bold;
+  display: inline-block;
+  min-width:30%;
+  float: left!important;
+  text-align: left!important;
+}

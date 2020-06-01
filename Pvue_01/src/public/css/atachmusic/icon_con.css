@@ -1,0 +1,65 @@
+/** Created by MiYuXin on 2020/2/9 .  **/
+
+.iconfont{
+  position: absolute;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+/*-------------------------*/
+.ico_userlist{
+  left: -9%;
+  font-size:1rem;
+}
+.iconfont_tuichu{
+  position: static;
+  width: 10%;
+  color:#ffffffb3;
+}
+#iconfont_sousuo{
+  font-size: 2rem;
+  z-index: 4;
+  color: #a8b9bbbd;
+  left: auto;
+  top: 10%;
+  right: 4%;
+}
+/*-------------------------*/
+.icon-jindutiao{
+  position: absolute;
+  left: 25%;
+  top: 9%;
+  transform: rotate(150deg);
+}
+#iconplaytype{
+  font-size: 1.4em;
+}
+/*-------------------------*/
+.ico_pci{
+  position: static;
+  width: 12%;
+  height: 100%;
+  line-height: 2.3rem;
+  transition: .3s;
+  text-align: center;
+  color: #c8eae7a8;
+  font-size: 2rem;
+}
+.ico_pci:active{
+  color:#ef7070;
+}
+.icon-kaishi{
+  text-indent:.3rem;
+  color:#ef7070;
+}
+.icon-error{
+  font-size: 1.6rem;
+  color:#ef7070;
+}
+.icon-menu_calendartpl{
+  font-size: 1.5rem;
+}

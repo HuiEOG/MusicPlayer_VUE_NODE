@@ -1,0 +1,163 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31330",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "567337",
+      "name": "错",
+      "font_class": "error",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1004644",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1191000",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "1446508",
+      "name": "列表",
+      "font_class": "liebiao1-copy",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "2276923",
+      "name": "用户",
+      "font_class": "icon_id",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "2441646",
+      "name": "开始",
+      "font_class": "kaishi",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "2913123",
+      "name": "后退",
+      "font_class": "draw-back",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "3138560",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "5395029",
+      "name": "下一首",
+      "font_class": "icon-test",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "5395067",
+      "name": "上一首",
+      "font_class": "icon-test1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "5485667",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "5743417",
+      "name": "圆",
+      "font_class": "choose",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "7149704",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "7813437",
+      "name": "定时",
+      "font_class": "dingshi",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "9749297",
+      "name": "作者",
+      "font_class": "zuozhe",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "10061840",
+      "name": "随机播放",
+      "font_class": "suijibofang",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "11989946",
+      "name": "皮肤",
+      "font_class": "pifu",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "12854179",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e541",
+      "unicode_decimal": 58689
+    },
+    {
+      "icon_id": "13018843",
+      "name": "单曲循环",
+      "font_class": "danquxunhuan",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "13019146",
+      "name": "循环播放",
+      "font_class": "xunhuanbofang",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "14301422",
+      "name": "下载",
+      "font_class": "menu_calendartpl",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    }
+  ]
+}

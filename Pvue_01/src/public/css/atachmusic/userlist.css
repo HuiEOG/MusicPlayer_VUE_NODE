@@ -1,0 +1,125 @@
+/** Created by MiYuXin on 2020/2/9 .  **/
+
+#userlist::before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width:100%;
+  height:100%;
+  filter:blur(2px);
+  background: url(../../images/LRbg_mb.jpg) round;
+}
+#userlist{
+  transition: .5s ease;
+  position: absolute;
+  width: 18rem;
+  /*left:-77%;*/
+  /*left:0;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 15;
+  border-right: 2px solid rgba(78, 78, 78, 0.58);
+  box-shadow: 0 0 11px 0 #232425;
+  background-color: #294142d9;
+  border-radius: 0 16px 0 0;
+}
+/*头像一栏*/
+#user_header{
+  display: flex;
+  z-index: 5;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 25%;
+  padding-top: 2%;
+}
+#userpic{
+  float:right;
+  border:3px solid #d2cbcba6;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 40px #b4a6a6;
+  box-shadow: 0 0 40px #b4a6a6;
+  width: 4rem;
+  height: 4rem;
+}
+#name{
+  float:right;
+  font-style: italic;
+  font-size: 0.1rem;
+  height: 26%;
+  line-height: 2rem;
+  color: #e2e2e2;
+}
+/*中间*/
+#userlist_ext{
+  width: 80%;
+  height: 55%;
+  z-index: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+#userlist_ext::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+#userlist_ext ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-size: .8rem;
+  border-top: 1px solid #bfd2d6c2;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+/*li部分*/
+.extlist{
+  position: relative;
+  /*height:3.5em;*/
+  height:100%;
+  border-bottom: 1px solid #dededec4;
+  color: #ffffffb3;
+  transition: .3s;
+  overflow: hidden;
+}
+.extlist span{
+  display: inline-block;
+  text-indent: 2rem;
+  line-height: 3rem;
+}
+.extlist_span{
+  position: inherit;
+  width: 100%;
+}
+.extlist:active{
+  border-bottom: 1px solid #525050;
+  background-color: #58585882;
+}
+/*底部*/
+#nav_bottom {
+  width:100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  line-height: 2.4rem;
+  background: rgba(150, 147, 147, 0.31);
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+  overflow: hidden;
+}
+
+#nav_bottom p{
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  color: #e6e6e6ba;
+}
+#nav_bottom:active{
+  background-color: rgba(160, 98, 99, 0.30);
+}
